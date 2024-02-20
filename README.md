@@ -10,10 +10,10 @@
 
 ### Paragraphs and Line Breaks
 
-We create paragraphs by typing the way we would in any ohter program.
+We create paragraphs by typing the way we would in any other program.
 Just hit return twice to start another paragraph.
 
-Where you see empty space between blocks of text in your Markdown document, you will see empty space seperating those blocks of text in your formatted HTML document.
+Where you see empty space between blocks of text in your Markdown document, you will see empty space separating those blocks of text in your formatted HTML document.
 
 To create a line break, hit the spacebar twice + enter key
 
