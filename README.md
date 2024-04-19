@@ -4,9 +4,11 @@
 
 ### Headlines
 
+```
 #### Heading Level 4
 ##### Heading Level 5
 ###### Heading Level 6
+```
 
 ### Paragraphs and Line Breaks
 
@@ -21,13 +23,19 @@ To create a line break, hit the spacebar twice + enter key
 
 #### Italics
 
+```
 This *works* and this _works_ too.
+```
 
 #### Bolding
 
+```
 This **works** and this __works__ too.
-
+```
+or  
+```
 This ***works*** and this ___works___ too.
+```
 
 ### Blockquotes
 
