@@ -1,8 +1,8 @@
 # Markdown Basics
 
-## Headlines, Paragraphs, and Basic Formatting
+## Headlines, Paragraphs, and Basic Formatting:
 
-### Headlines
+### Headlines:
 
 ```
 #### Heading Level 4
@@ -10,7 +10,7 @@
 ###### Heading Level 6
 ```
 
-### Paragraphs and Line Breaks
+### Paragraphs and Line Breaks:
 
 We create paragraphs by typing the way we would in any other program.
 Just hit return twice to start another paragraph.
@@ -19,52 +19,101 @@ Where you see empty space between blocks of text in your Markdown document, you 
 
 To create a line break, hit the spacebar twice + enter key
 
-### Emphasis and Bolding
+### Emphasis and Bolding:
 
-#### Italics
+#### Italics:
 
 ```
 This *works* and this _works_ too.
 ```
 
-#### Bolding
+#### Bolding:
 
 ```
 This **works** and this __works__ too.
 ```
-or  
+
+#### Italic & Bolding:  
+
 ```
 This ***works*** and this ___works___ too.
 ```
 
-### Blockquotes
+### Blockquotes:
+
+```
+>Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
+>
+>Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it's been marked up with tags or formatting instructions - [John Gruber](https://daringfireball.net/projects/markdown/ "Creator of Markdown")
+>
+```
+
+Blockquote Example:  
 
 >Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
 >
 >Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it's been marked up with tags or formatting instructions - [John Gruber](https://daringfireball.net/projects/markdown/ "Creator of Markdown")
+>
 
-### Horizontal Rule
+### Horizontal Rule:
 
+```
 ___
 
 ---
 
 ***
+```
 
-## List
+Example:  
 
-### Numbered Lists
+___  
 
+---  
+
+***  
+
+## List:
+
+### Numbered Lists:
+
+```
 1. Item 1
 2. Item 2  
+```
 
-#### Nested Number List
+Numbered Lists Example:  
+
+1. Item 1
+2. Item 2
+
+#### Nested Number List:
+
+```
+1. Item 1
+    1. Item 1
+    2. Item 2
+```
+
+Nested Number List Example:  
 
 1. Item 1
     1. Item 1
     2. Item 2
 
-### Bulleted Lists
+### Bulleted Lists:
+
+```
+* Item
+* Item
+
+
+* Item
+    * Item
+        * Item
+```
+
+Bulleted Lists Example:  
 
 * Item
 * Item
@@ -73,6 +122,22 @@ ___
 * Item
     * Item
         * Item
+
+```
+* Bulleted Item
+
+* ***Bulleted, bold, italicized item***
+
+1. Item 1
+    * Item
+    * Item
+2. Item 2
+    * Bulleted Item
+        1. Item 1
+        2. Item 2
+```
+
+Another bulleted Lists Example:  
 
 * Bulleted Item
 
@@ -88,15 +153,22 @@ ___
 
 ---
 
-## Code
+## Code:
 
-### Inline Code
+### Inline Code:
 
+```
 To install the latest version of NPM, you can type, `npm install npm@latest -g`
+```
 
-### Block Code
+Inline Code Example:  
+
+To install the latest version of NPM, you can type, `npm install npm@latest -g`  
+
+### Block Code:
 
 #### Example 1:
+
 
 ```
 let exampleFunction = () => {
@@ -120,41 +192,85 @@ let exampleFunction = () => {
 
 ---
 
-## Links
+## Links:
 
-#### Link
+#### Link:
 
+```
 [Treehouse](https://teamtreehouse.com)
+```
 
-#### Link with ALT Text
+Link Example:  
 
+[Treehouse](https://teamtreehouse.com)  
+
+#### Link with ALT Text:
+
+```
 [Treehouse](http://teamtrehouse "Link to Treehouse")
+```
 
-#### Reference Link
+Link with ALT Text Example:  
+
+[Treehouse](http://teamtrehouse "Link to Treehouse")  
+
+#### Reference Link:
+
+```
+[Treehouse][1]
+
+[1]: https://treehouse.com "Reference Link to Treehouse"
+```
+
+Reference Link Example:  
+
 
 [Treehouse][1]
 
-
-[1]: https://treehouse.com "Reference Link to Treehouse"
+[1]: https://treehouse.com "Reference Link to Treehouse"  
 
 ---
 
-## Images
+## Images:
 
-#### Image
+#### Image:
 
+```
 ![Kittens](https://placekitten.com/250/400)
+```
 
-#### Image with Link
+Image Example:  
 
+![Kittens](https://placekitten.com/250/400)  
+
+#### Image with Link:
+
+```
 [![Kittens](https://placekitten.com/300/400)](https://placekitten.com/)
+```
 
-#### Image with ALT Text
+Image with Link Example:  
 
+[![Kittens](https://placekitten.com/300/400)](https://placekitten.com/)  
+
+#### Image with ALT Text:
+
+```
 ![Kittens](https://placekitten.com/350/400 "Curious Kitten")
+```
 
-#### Image with ALT Text and Link
+Image with ALT Text Example:  
 
+![Kittens](https://placekitten.com/350/400 "Curious Kitten")  
+
+#### Image with ALT Text and Link:
+
+```
 [![Kittens](https://placekitten.com/350/400 "Fluffy Kitten")](https://placekitten.com/)
+```
+
+Image with ALT Text and Link Example:  
+
+[![Kittens](https://placekitten.com/350/400 "Fluffy Kitten")](https://placekitten.com/)  
 
 ---
